@@ -18,13 +18,13 @@ This project helps admins:
 Below are sample WhatsApp screenshots used as OCR inputs in this project.
 
 ### Sample Input 1
-![Sample Input 1](https://raw.githubusercontent.com/lucifer01430/whatsapp-screenshot-ocr/refs/heads/main/media/screenshots/1.jpeg)
+<img src="https://raw.githubusercontent.com/lucifer01430/whatsapp-screenshot-ocr/refs/heads/main/media/screenshots/1.jpeg" alt="Sample Input 1" width="360">
 
 ### Sample Input 2
-![Sample Input 2](https://raw.githubusercontent.com/lucifer01430/whatsapp-screenshot-ocr/refs/heads/main/media/screenshots/2.jpeg)
+<img src="https://raw.githubusercontent.com/lucifer01430/whatsapp-screenshot-ocr/refs/heads/main/media/screenshots/2.jpeg" alt="Sample Input 2" width="360">
 
 ### Sample Input 3
-![Sample Input 3](https://raw.githubusercontent.com/lucifer01430/whatsapp-screenshot-ocr/refs/heads/main/media/screenshots/3.jpeg)
+<img src="https://raw.githubusercontent.com/lucifer01430/whatsapp-screenshot-ocr/refs/heads/main/media/screenshots/3.jpeg" alt="Sample Input 3" width="360">
 
 ---
 
