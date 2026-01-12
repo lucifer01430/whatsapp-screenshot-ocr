@@ -13,6 +13,14 @@ This project helps admins:
 
 ---
 
+## Dashboard
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/lucifer01430/whatsapp-screenshot-ocr/refs/heads/main/media/screenshots/1b69f231-b16c-4224-b14c-4c6ae2bee8a6.jpg" alt="Sample Input 1" width="880">
+</div>
+
+---
+
 ## App Screenshots
 
 Below are sample WhatsApp screenshots used as OCR inputs in this project.
