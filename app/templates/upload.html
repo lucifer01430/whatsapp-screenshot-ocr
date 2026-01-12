@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Upload{% endblock %}
+{% block content %}
+
+<div class="row">
+  <div class="col-md-8">
+    <div class="card card-info">
+      <div class="card-header">
+        <h3 class="card-title">Upload screenshots</h3>
+      </div>
+
+      <form method="POST" enctype="multipart/form-data" action="">
+        {% csrf_token %}
+
+        <div class="card-body">
+
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-info">{{ message }}</div>
+            {% endfor %}
+          {% endif %}
+
+          <div class="form-group">
+            <label>Select images (multiple)</label><br/>
+            <input type="file" name="images" multiple required class="form-control"/>
+            <small class="form-text text-muted">Tip: 92 screenshots select all → open</small>
+          </div>
+
+        </div>
+
+        <div class="card-footer">
+          <button type="submit" class="btn btn-info">
+            Extract & Download Excel
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}

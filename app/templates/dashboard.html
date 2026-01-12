@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<div class="row">
+  <div class="col-lg-8">
+    <div class="card card-elevated overview-hero mb-4">
+      <div class="card-body">
+        <span class="overview-pill mb-3"><i class="fas fa-bolt"></i> Admin Overview</span>
+        <h2 class="display-4 mb-3">WhatsApp OCR Dashboard</h2>
+        <p class="lead mb-4">
+          Convert WhatsApp chat screenshots into clean, structured Excel data with speed and accuracy.
+          This workspace keeps everything you need to manage uploads and deliver results in one place.
+        </p>
+        <div class="d-flex flex-wrap">
+          <span class="badge badge-light mr-2 mb-2"><i class="fas fa-file-excel text-success"></i> Excel export</span>
+          <span class="badge badge-light mr-2 mb-2"><i class="fas fa-shield-alt text-info"></i> Organized output</span>
+          <span class="badge badge-light mr-2 mb-2"><i class="fas fa-bolt text-warning"></i> Faster extraction</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-outline card-primary mb-4">
+      <div class="card-header">
+        <h3 class="card-title">What is this software?</h3>
+      </div>
+      <div class="card-body">
+        <p>
+          WhatsApp OCR is an admin-friendly toolkit that turns multiple WhatsApp screenshots into an Excel sheet.
+          It focuses on fast data entry, consistent formatting, and easy review for operational teams.
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="info-box bg-light">
+              <span class="info-box-icon bg-primary"><i class="fas fa-camera"></i></span>
+              <div class="info-box-content">
+                <span class="info-box-text">Input</span>
+                <span class="info-box-number">Batch screenshots</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-box bg-light">
+              <span class="info-box-icon bg-success"><i class="fas fa-table"></i></span>
+              <div class="info-box-content">
+                <span class="info-box-text">Output</span>
+                <span class="info-box-number">Structured Excel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-outline card-info mb-4">
+      <div class="card-header">
+        <h3 class="card-title">Who made this software?</h3>
+      </div>
+      <div class="card-body">
+        <p>
+          This software is designed and developed by Harsh Pandey to simplify high-volume data extraction workflows.
+          The goal is to give admins a clear overview, faster turnaround, and trustworthy output.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card card-outline card-secondary mb-4">
+      <div class="card-header">
+        <h3 class="card-title">Quick action</h3>
+      </div>
+      <div class="card-body">
+        <a class="btn btn-primary btn-block mb-2" href="/upload/">
+          <i class="fas fa-upload"></i> Upload screenshots
+        </a>
+        <p class="text-muted mb-0">Upload images to begin OCR processing and export Excel data.</p>
+      </div>
+    </div>
+
+    <div class="card card-elevated mb-4">
+      <div class="card-header">
+        <h3 class="card-title">Developer profile</h3>
+      </div>
+      <div class="card-body">
+        <p class="mb-3">
+          Harsh Pandey is a developer focused on practical automation, OCR workflows, and clean admin experiences.
+          He builds tools that reduce manual work and improve data accuracy for teams.
+        </p>
+        <div class="small text-muted">
+          Areas of focus: OCR pipelines, data organization, reliable admin UX.
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-outline card-light">
+      <div class="card-header">
+        <h3 class="card-title">How it works</h3>
+      </div>
+      <div class="card-body">
+        <ol class="pl-3 mb-0">
+          <li>Upload WhatsApp screenshots.</li>
+          <li>OCR extracts names and mobile numbers.</li>
+          <li>Download the compiled Excel file.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
